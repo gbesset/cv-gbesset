@@ -1,0 +1,8 @@
+_mesNotes.MD
+
+# IDEs and editors
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
