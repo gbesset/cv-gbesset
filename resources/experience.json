@@ -1,25 +1,107 @@
 {
-	"experience": "experiences",
+	"title":"Experiences",
 	"xps": [
 		{
-			"id": 1,
- 			"titre": "Ingénieur développement Produits et Appplication",
+			"id": 8,
+			"img": "netceler.png",
+ 			"title": "Ingénieur développement Produits et Appplication",
  			"company": "Netceler",
     		"from": "Novembre 2015",
     		"to": "Juin 2017",
     		"shortDescription": "Ingénieur Développement Produits et Application. \nDéveloppement, Packaging et Release du produit IVPower : outil de monitoring et d'analyse d'incidents sur les réseaux électriques.",
-    		"longDescription": "", 
-			"type": "CDI" 
+    		"longDescription": [
+    			{
+    				"p":"loooooong."
+    			},
+    			{
+    				"p":"Ingénieur Développement Produits et Application. \nDéveloppement, Packaging et Release du produit IVPower : outil de monitoring et d'analyse d'incidents sur les réseaux électriques."
+    			},
+    			{
+    				"p":"bla bla bla again" 
+    			}
+    		],
+			"type": "CDI",
+			"orientation": "left" 
 		},
 		{ 
-			"id": 2, 
-			"titre": "Développement Java J2EE", 
+			"id": 7, 
+			"img": "thales_avionics.jpg",
+			"title": "Développement Java J2EE", 
 			"company": "Thales Avionics",
       		"from":"Octobre 2014", 
       		"to": "Mars 2015", 
       		"shortDescription": "Mise en place d’une nouvelle application de centralisation et mise à disposition des données utiles aux différents besoins des commerciaux Thales Avionics dans le monde.",
-      		"longDescription": "", 
-      		"type":"FREELANCE" 
+      		"longDescription": [
+      			{
+      				"p":"looooong"
+      			},
+      			{
+      				"p":"Mise en place d’une nouvelle application de centralisation et mise à disposition des données utiles aux différents besoins des commerciaux Thales Avionics dans le monde."
+      			},
+      			{
+      				"p":"another one"
+
+      			},
+      			{
+      				"p":"last one"
+      			}
+      		],
+      		"type":"FREELANCE", 
+      		"orientation": "right"
+      	},
+      	{ 
+			"id": 2, 
+			"img": "sopra.jpg",
+			"title": "Développement Java J2EE", 
+			"company": "Sopra Group",
+      		"from":"Septembre 2012", 
+      		"to": "Avril 2014", 
+      		"shortDescription": "Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions puis Responsable de domaine Internet. ",
+      		"longDescription": [
+      			{
+      				"p":"Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions puis Responsable de domaine Internet. "
+      			},
+      			{
+      				"p":"Environnement technique :",
+      				"class":"underline"
+
+      			},
+      			{
+      				"p":"Java J2EE, Oracle, Websphere, Tridion, .. "
+      			}
+      		],
+      		"type":"CDI", 
+      		"orientation": "left"
+      	},
+      	{ 
+			"id": 1, 
+			"img": "atos.jpg",
+			"title": "Développement Java J2EE", 
+			"company": "Atos Worldline",
+      		"from":"Aout 2006", 
+      		"to": "Septembre 2012", 
+      		"shortDescription": "Développeur java, Responsable d'application puis Chef de projet dans les secteurs du Public Santé Transport, Retail ou encore Télécom et Média.J'ai travaillé pour de grands compte tels que Autorité Sûreté Nucléaire, Auchan, Atos, Orange,... ",
+      		"longDescription": [
+      			{
+      				"p":"Développeur java, Responsable d'application puis Chef de projet dans les secteurs du Public Santé Transport, Retail ou encore Télécom et Média."
+      			},
+      			{
+      				"p":"J'ai travaillé pour de grands compte tels que Autorité Sûreté Nucléaire, Auchan, Atos, Orange,..."
+      			},
+      			{
+      				"p":"Environnement technique :",
+      				"class":"underline"
+
+      			},
+      			{
+      				"p":"Java J2EE, Hibernate, Spring, MySql, Maven, Tapestry, jsp, Ios, Android, .."
+      			},
+      			{
+      				"p":"Cycle en V, Méthodologie Agile, Avant vente, Gestion de projet, .. "
+      			}
+      		],
+      		"type":"FREELANCE", 
+      		"orientation": "right"
       	}
 	]
 }
