@@ -192,6 +192,20 @@ Experience
 	margin-top: 40px;
 	box-shadow: 0 0 5px black;
 }
+.modal{
+	max-width:800px;
+	width:800px;
+	height: 500px;
+	max-height: 500px;
+
+	
+	z-index: 20;
+}
+
+.modal a.close-modal{
+	top:2.5px;
+	right: 2.5px;
+}
 
 /***************
 Skills
