@@ -42,17 +42,12 @@
                   </div>
                   <div class="card-info">
                     <ul class="profile-list">
-       
                       <li class="title">
                         <span class="glyphicon glyphicon-envelope inlineCenter" ></span>
                         <span class="content inlineCenter">
                           <button id="displayMail" type="button" class="btn-outline-dark">Afficher...</button>
                           <span id="mail"></span>
                         </span>
-                      </li>
-                      <li class="title">
-                        <span class="glyphicon glyphicon-globe inlineCenter" ></span>
-                        <span class="content inlineCenter">http://www.gbcreation.fr</span>
                       </li>
                       <li class="title">
                         <span class="glyphicon glyphicon-phone inlineCenter" ></span>
@@ -66,18 +61,23 @@
                         <span class="content inlineCenter">Valence (26)</span>
                       </li>
                       <li class="title">
-                        <span class="glyphicon glyphicon-file inlineCenter" ></span>
-                        <span class="content inlineCenter">CV</span>
+                        <a href="./CV_guillaumeBesset.pdf" title="CV Guillaume Besset PDF">
+                          <span class="glyphicon glyphicon-file inlineCenter" ></span>
+                        </a>  
+                        <span class="content inlineCenter">
+                          <a href="./CV_guillaumeBesset.pdf" title="CV Guillaume Besset PDF">CV</a>
+                          </span>
+                        </a>
                       </li>
                     </ul>
                     <div class="social">
                       <ul class="social-list">
-                        <li><a href="#"><img src="./resources/img/icon-linkedin.png" class="firstElem img-circle" alt="Linkedin"></a></li>
-                        <li><a href="#"><img src="./resources/img/icon-viadeo.png" class="img-circle" alt="Viadeo"></a></li>
-                        <li><a href="#"><img src="./resources/img/icon-doyoubuzz.jpeg" class="img-circle" alt="DoYouBuzz"></a></li>
+                        <li><a href="https://www.linkedin.com/in/guillaumebesset/"><img src="./resources/img/icon-linkedin.png" class="firstElem img-circle" alt="Linkedin"></a></li>
+                        <li><a href="http://www.viadeo.com/p/00230oy1wrz4ms5"><img src="./resources/img/icon-viadeo.png" class="img-circle" alt="Viadeo"></a></li>
+                        <li><a href="http://www.doyoubuzz.com/guillaume-besset"><img src="./resources/img/icon-doyoubuzz.jpeg" class="img-circle" alt="DoYouBuzz"></a></li>
                           <li><a href="#"><img src="./resources/img/icon-twitter.png" class="img-circle" alt="Twitter"></a></li>
-                        <li><a href="#"><img src="./resources/img/icon-github.png" class="img-circle" alt="Github"></a></li>
-                        <li><a href="#"><img src="./resources/img/icon-cv.jpg" class="img-circle" alt="CV détaillé"></a></li>
+                        <li><a href="https://github.com/gbesset"><img src="./resources/img/icon-github.png" class="img-circle" alt="Github"></a></li>
+                        <li><a href="https://www.malt.fr/profile/guillaumebesset"><img src="./resources/img/icon-malt.jpg" class="img-circle" alt="Malt"></a></li>
                       </ul>
                     </div>
                   </div>
@@ -101,23 +101,22 @@
               </p>
             </div>
 
-            <div class="todo">
-              CV download. - cv download detaillé
-              </hr>
-              modal -> plugin jquery -> lire pdf
-
-            </div>
         </section>
 
 
         <section id="experience" class="card">
             <div class="card-content">
-              <h3>Experiences</h3> 
+              <h3>Experiences   <span class="cv"><a href="./CV_guillaumeBesset.pdf" title="CV Guillaume Besset PDF">
+                <img src="./resources/img/icon-cv.jpg"></a></span></h3>
+
+              <!--<span class="cv">CV</span> 
+              <span class="cv">CV Détaillé</span>-->
+
               <div id="loader">Loading Experience......</div>
               <div id="results"></div>
             </div>
         </section>
-
+<!--
         <section id="skills" class="card">
             <div class="card-content">
               <h3>Compétences</h3> 
@@ -136,14 +135,18 @@
             </div>
         </section>
 
-         <section id="contac" class="card">
+         <section id="contact" class="card">
             <div class="card-content">
               <h3>Contacts</h3> 
             </div>
         </section>
-
-
-
+-->
+         <section id="footer" class="card">
+            <div class="sumary">
+              Dernière mise à jour le <span id="lastMAJ"></span>
+            </div>
+        </section>
+<!--
 
 
         <div id="loading">
@@ -151,22 +154,14 @@
                   <div class="box-holder animated bounceInDown">
                       <span class="load-box"><span class="box-inner"></span></span>
                   </div>
-                  <!-- NAME & STATUS -->
+
                   <div class="text-holder text-center">
                       <h2>Guillaume Besset</h2>
                       <h6>Développement Java / Web - Gestion de projet Agile</h6>
                   </div>
           </div>
         </div>
-
-        <h1>Hello, world!</h1> 
-      <p>Check icon: <span class="glyphicon glyphicon-check"></span></p>    
-      <p>Check icon as a link:
-        <a href="#">
-          <span class="glyphicon glyphicon-check"></span>
-        </a>
-      </p>
-
+-->
       </div>
     </main>
     

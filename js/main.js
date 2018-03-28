@@ -44,6 +44,13 @@ jQuery(document).ready(function($){
 			});
 			divWrapper.appendTo(divXp);
 
+			if(xp.orientation=="right"){
+					var spanType = $('<span/>', {
+				    class: 'xp-puce xp-puce-r',
+				    text: ' '
+				}).appendTo(divXp);
+			}
+
 			$('<span/>', {
 			    class: 'flag',
 			    text: xp.company
@@ -61,13 +68,25 @@ jQuery(document).ready(function($){
 
 			spanTime.appendTo(divWrapper);
 
+			var spanType = $('<span/>', {
+			    class: 'xp-type',
+			    text: xp.type
+			}).appendTo(divXp);
+
+			if(xp.orientation=="left"){
+					var spanType = $('<span/>', {
+				    class: 'xp-puce xp-puce-l',
+				    text: ' '
+				}).appendTo(divXp);
+			}
+
+
 
 			$('<div/>', {
 			    class: 'title',
 			    text: xp.title
 			}).appendTo(divXp);
-
-
+			
 			/*$('<span/>', {
 			    class: 'type',
 			    text: xp.type
@@ -111,6 +130,7 @@ jQuery(document).ready(function($){
 
 	$.getJSON("resources/experience.json", function(data){
 	   displayXP(data,"results");
+	   majFooter(data);
 	})
 	.fail(function(){
 		displayError("results");
@@ -119,6 +139,9 @@ jQuery(document).ready(function($){
 		$('#loader').hide();
 	});
 
+	function majFooter(data){
+		$('#lastMAJ').text(data.maj);
+	}
 
 	function createModal(id, xp, target){
 
@@ -149,7 +172,7 @@ jQuery(document).ready(function($){
 
 		$('<img/>', {
 		    class:"xp-modal-img",
-		    src: 'resources/img/trier/'+xp.img
+		    src: 'resources/img/xp/'+xp.img
 		}).appendTo(colLeft);
 
 		var divInfo = $('<div/>', {
@@ -179,6 +202,29 @@ jQuery(document).ready(function($){
 		}
 
 
+		var divEnv = $('<div/>', {
+		    class:"xp-modal-sumary",
+		}).appendTo(divModal);
+
+		if(xp.techno!==""){
+			$('<p/>', {
+			    class:"xp-modal-techno",    
+			    html: "<span class='sumary-title'>Technologies: </span>"+xp.techno
+			}).appendTo(divEnv);
+		}
+		if(xp.environnement!==""){
+			$('<p/>', {
+			    class:"xp-modal-techno",    
+			    html: "<span class='sumary-title'>Environnement: </span>"+xp.environnement
+			}).appendTo(divEnv);
+		}		
+		if(xp.GP!==""){
+			$('<p/>', {
+			    class:"xp-modal-techno",    
+			    html: "<span class='sumary-title'>Gestion Projet: </span>"+xp.GP
+			}).appendTo(divEnv);
+		}
+
 		var divClose = $('<div/>', {
 				class:"xp-modal-close",
 			}).appendTo(divModal);
@@ -186,7 +232,7 @@ jQuery(document).ready(function($){
 		$('<a/>', {
 			 href: '#',
 			 rel: 'modal:close',
-			 text: 'close',
+			 text: 'fermer',
 			 class: "x-modal-close"
 			}).appendTo(divClose);
 	}

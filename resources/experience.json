@@ -1,107 +1,245 @@
 {
-	"title":"Experiences",
+	"maj":"28 mars 2018",
+  "title":"Experiences",
 	"xps": [
+    {
+      "id": 10,
+      "img": "GibeeCreationLogo.png",
+      "title": "Développement Java J2EE et WEB",
+      "company": "Clients",
+      "from": "Fevrier 2018",
+      "to": "Aujourd'hui",
+      "shortDescription": "Création de site internets institutionnels et d'une application Java de gestion de photos et vidéos sous forme de mur d'images",
+      "longDescription": [
+          {
+            "p":"Création de deux sites vitrines pour un cabinet d’Expert comptable et un cabinet de podologie."
+          },
+          {
+            "p":"Création d’une application de gestion de photos ou vidéos sous forme de mur d’images, composeée de deux éleéments :"
+          },
+           {
+            "p":"* Backend en java : Java 8, PostgreSQL, Maven, Hibernate, Spring-boot, JUnit, lombock, GIT, REST, Hébergement: Unix debian"
+          },
+           {
+            "p":"* Frontend en Angular5"
+          }
+       ],
+      "techno":"Java 8, PostgreSQL, Mysql, Maven3.3, Hibernate, Spring, Spring-boot, Mockito, JUnit, Git, REST, ..,",
+      "environnement":"Unix, Mac, Github, ..",
+      "GP":"Agile",
+      "type": "FREELANCE",
+      "orientation": "right" 
+    },
+    {
+      "id": 9,
+      "img": "campusNumerique.png",
+      "title": "Digital Learning Manager",
+      "company": "Ecole Numérique de Valence",
+      "from": "Fevrier 2018",
+      "to": "Aujourd'hui",
+      "shortDescription": "Enseignant a l'école Numérique de Valence",
+      "longDescription": [
+          {
+            "p":"Création d'un cours sur les gestions de projets Agiles et mise en pratique (jeux, projets en cours)"
+          },
+          {
+            "p":"Création d'un cours de deux jours sur Git, Exercices, Mise en place dans les projets existants"
+          },
+          {
+            "p":"Intervention dans le cours Javascript (Api REST, JQUery, Tests)" 
+          },
+          {
+            "p":"Intervention dans le cours de Java" 
+          }
+        ],
+      "techno":"JQuery, Java, Git",
+      "environnement":"",
+      "GP":"Agile",
+      "type": "FREELANCE",
+      "orientation": "left" 
+    },
+    {
+      "id": 8,
+      "img": "greta-viva5.png",
+      "title": "Enseignant BTS",
+      "company": "Gretta Viva 5",
+      "from": "Septembre 2017",
+      "to": "Décembre 2017",
+      "shortDescription": "Enseignant au Greta VIVA 5 : Module de gestion de BDD (40h)",
+      "longDescription": [
+          {
+            "p":"Création d’un module (cours, supports, TPs et TDs ainsi que deux exams pour des BTS 1ère année). Ce module aborde les savoirs et savoir-faire liés à la conception et à l’adaptation d’une base de données ainsi qu’à la mise en œuvre des outils de programmation associés."
+          }
+        ],
+      "techno":"",
+      "environnement":"",
+      "GP":"",
+      "type": "FREELANCE",
+      "orientation": "right" 
+    },
 		{
-			"id": 8,
+			"id": 7,
 			"img": "netceler.png",
  			"title": "Ingénieur développement Produits et Appplication",
  			"company": "Netceler",
-    		"from": "Novembre 2015",
-    		"to": "Juin 2017",
-    		"shortDescription": "Ingénieur Développement Produits et Application. \nDéveloppement, Packaging et Release du produit IVPower : outil de monitoring et d'analyse d'incidents sur les réseaux électriques.",
-    		"longDescription": [
+  		"from": "Novembre 2015",
+  		"to": "Juin 2017",
+  		"shortDescription": "Ingénieur Développement Produits et Application. \nDéveloppement, Packaging et Release du produit IVPower : outil de monitoring et d'analyse d'incidents sur les réseaux électriques.",
+  		"longDescription": [
     			{
-    				"p":"loooooong."
+    				"p":"Développement, Packaging et Release du produit IVPower, outil d'analyse d'incidents sur les réseaux électriques qui permet :"
     			},
     			{
-    				"p":"Ingénieur Développement Produits et Application. \nDéveloppement, Packaging et Release du produit IVPower : outil de monitoring et d'analyse d'incidents sur les réseaux électriques."
+    				"p":"* Analyse de défauts dans les réseaux de transport et de distribution, perturbographie, détection d'anomalies."
     			},
     			{
-    				"p":"bla bla bla again" 
-    			}
+    				"p":"* Surveillance des équipements et des systèmes : protection, disjoncteurs, ..." 
+    			},
+          {
+            "p":"* Import et Mesure de la qualité: plan de tension, creux de tension, conformité avec la norme EN50160..." 
+          }
     		],
+      "techno":"Java 7,Java 8, PostgreSQL, Mysql, Maven3.3, Hibernate, Spring, Mockito, TestNG, Mercurial, Jenkins, REST, ..,",
+      "environnement":"",
+      "GP":"Méthodogies Agiles",
 			"type": "CDI",
 			"orientation": "left" 
 		},
 		{ 
-			"id": 7, 
+			"id": 6, 
 			"img": "thales_avionics.jpg",
 			"title": "Développement Java J2EE", 
 			"company": "Thales Avionics",
-      		"from":"Octobre 2014", 
-      		"to": "Mars 2015", 
-      		"shortDescription": "Mise en place d’une nouvelle application de centralisation et mise à disposition des données utiles aux différents besoins des commerciaux Thales Avionics dans le monde.",
-      		"longDescription": [
-      			{
-      				"p":"looooong"
-      			},
-      			{
-      				"p":"Mise en place d’une nouvelle application de centralisation et mise à disposition des données utiles aux différents besoins des commerciaux Thales Avionics dans le monde."
-      			},
-      			{
-      				"p":"another one"
+  		"from":"Octobre 2014", 
+  		"to": "Mars 2015", 
+  		"shortDescription": "Mise en place d’une nouvelle application de centralisation et mise à disposition des données utiles aux différents besoins des commerciaux Thales Avionics dans le monde.",
+  		"longDescription": [
+    			{
+    				"p":"Mise en place d’une nouvelle application de centralisation et mise à disposition des données utiles aux différents besoins des commerciaux Thales Avionics dans le monde."
+    			},
+    			{
+    				"p":"Cette application propose à l’utilisateur un ensemble de critère de recherche et gère l’affichage, l’édition des informations sélectionnées en fonctions de droits et profils, l'import et l'export,... Elle est alimentée par différents systèmes (SAP, Base de Produit,..)"
+    			}
+    		],
+      "techno":"Java J2EE, JSF2, Primefaces, Oracle, Tomcat, SSO",
+      "environnement":"",
+      "GP":"",
+    	"type":"FREELANCE", 
+    	"orientation": "right"
+  	},
+    { 
+      "id": 5, 
+      "img": "sopra.jpg",
+      "title": "Responsable de domaine Internet", 
+      "company": "Sopra Group",
+      "from":"Décembre 2013", 
+      "to": "Avril 2014", 
+      "shortDescription": "Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions,..",
+      "longDescription": [
+        {
+          "p":"En charge des sites internet d’Apicil (Agence en Ligne, Espace personnel Particulier, Entreprise, Courtiers ; Site institutionnel ; Intranet)."
+        },
+        {
+          "p":"Référent auprès des équipes métier, gestion des projets et de l’existant, Pilotage de prestataires et équipes dédiées"
+        }
 
-      			},
-      			{
-      				"p":"last one"
-      			}
-      		],
-      		"type":"FREELANCE", 
-      		"orientation": "right"
-      	},
-      	{ 
-			"id": 2, 
+      ],
+      "techno":"Java/J2EE, Oracle, WebSphere, Tridion",
+      "environnement":"",
+      "GP":"",
+      "type":"CDI", 
+      "orientation": "left"
+    },
+  	{ 
+			"id": 4, 
 			"img": "sopra.jpg",
-			"title": "Développement Java J2EE", 
+			"title": "Chef de projet", 
 			"company": "Sopra Group",
-      		"from":"Septembre 2012", 
-      		"to": "Avril 2014", 
-      		"shortDescription": "Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions puis Responsable de domaine Internet. ",
-      		"longDescription": [
-      			{
-      				"p":"Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions puis Responsable de domaine Internet. "
-      			},
-      			{
-      				"p":"Environnement technique :",
-      				"class":"underline"
-
-      			},
-      			{
-      				"p":"Java J2EE, Oracle, Websphere, Tridion, .. "
-      			}
-      		],
-      		"type":"CDI", 
-      		"orientation": "left"
-      	},
-      	{ 
-			"id": 1, 
+  		"from":"Septembre 2012", 
+  		"to": "Novembre 2013", 
+  		"shortDescription": "Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions,..",
+  		"longDescription": [
+  			{
+  				"p":"Consultant java en mission au GIPS pour APICIL dans le domaine des Mutuelles et Assurances. Maintien en Condition Opérationnelle, Mise en place d'évolutions puis Responsable de domaine Internet. "
+  			}
+  		],
+      "techno":"Java/J2EE, Oracle, WebSphere, Tridion",
+      "environnement":"",
+      "GP":"",
+  		"type":"CDI", 
+  		"orientation": "left"
+  	},
+    { 
+      "id": 3, 
+      "img": "atos.jpg",
+      "title": "Chef de projet", 
+      "company": "Atos Worldline",
+      "from":"Décembre 2010", 
+      "to": "Septembre 2012", 
+      "shortDescription": "Dans la Business Télécom et Média j'ai pris en charge la gestion de projet pour Orange pour des applications BackEnd d'applications mobiles",
+      "longDescription": [
+        {
+          "p":"Développement et exploitation d'un service backend pour les applications embarquées mobiles sur android et Iphone pour un grand opérateur mobile."
+        },
+        {
+          "p":"J'ai réalisé les tâches suivantes (Avant Vente, Rédaction de document d'architecture, Dévelippement et tests, Mise en Production de services, Support, Gestion de projet, Pilotage et Suivi,..."
+        }
+      ],
+      "techno":"Java/J2EE, mySql, Hibernate, Spring, Jersey, SOA, JUnit, JMeter",
+      "environnement":"Apache, Tomcat, Maven, Intégration Continue",
+      "GP":" Méthode Agile (Scrum)",
+      "type":"CDI", 
+      "orientation": "right"
+    },
+  	{ 
+			"id": 2, 
 			"img": "atos.jpg",
-			"title": "Développement Java J2EE", 
+			"title": "Responsable d'application", 
 			"company": "Atos Worldline",
-      		"from":"Aout 2006", 
-      		"to": "Septembre 2012", 
-      		"shortDescription": "Développeur java, Responsable d'application puis Chef de projet dans les secteurs du Public Santé Transport, Retail ou encore Télécom et Média.J'ai travaillé pour de grands compte tels que Autorité Sûreté Nucléaire, Auchan, Atos, Orange,... ",
-      		"longDescription": [
-      			{
-      				"p":"Développeur java, Responsable d'application puis Chef de projet dans les secteurs du Public Santé Transport, Retail ou encore Télécom et Média."
-      			},
-      			{
-      				"p":"J'ai travaillé pour de grands compte tels que Autorité Sûreté Nucléaire, Auchan, Atos, Orange,..."
-      			},
-      			{
-      				"p":"Environnement technique :",
-      				"class":"underline"
-
-      			},
-      			{
-      				"p":"Java J2EE, Hibernate, Spring, MySql, Maven, Tapestry, jsp, Ios, Android, .."
-      			},
-      			{
-      				"p":"Cycle en V, Méthodologie Agile, Avant vente, Gestion de projet, .. "
-      			}
-      		],
-      		"type":"FREELANCE", 
-      		"orientation": "right"
-      	}
+  		"from":"Aout 2006", 
+  		"to": "Novembre 2010", 
+  		"shortDescription": "Dans la Business Unit Public Santé Transport, j'ai travaillé pour de grands compte tels que l'ASN (Autorité de Sureté Nucléaire), Auchan, Atos Origin et l'Archivage numérique pour eBourgogne",
+  		"longDescription": [
+  			{
+  				"p":"Au sein de la BU Public Santé Transport, j'ai travaillé en tant que développeur java, responsable d'application puis chef de projet"
+  			},
+  			{
+  				"p":"J'ai travaillé pour de grands comptes tels que l'ASN (Autorité de Sureté Nucléaire), Auchan, Atos Origin, Archivage Numérique pour eBourgogne"
+  			}
+  		],
+      "techno":"Java/J2EE, JPA(Hibernate), Spring, Tapestry, jsp, Servlet, SOA, architecture nTier",
+      "environnement":"Apache, Tomcat, Maven, Intégration Continue",
+      "GP":"Cycle en V, Méthode Agile (Scrum)",
+  		"type":"CDI", 
+  		"orientation": "right"
+  	},
+    { 
+      "id": 1, 
+      "img": "diags.jpg",
+      "title": "Ingénieur Développement Informatique", 
+      "company": "DIAGS",
+      "from":"Janvier 2006", 
+      "to": "Aout 2006", 
+      "shortDescription": "Recherche de modélisations mathématiques et probabilistes, mise en place de caméra pour corriger en temps réel l'afluence et affiner les estimations établies, ... dans un logiciel de plannification d'horaires (Grandes surfaces, Centres d'appels, Universités)",
+      "longDescription": [
+        {
+          "p":"Société éditrice de logiciels de planification d’horaire et d’optimisation de planning pour les centres d’appels, les grandes surfaces et les universités"
+        },
+        {
+          "p":"Recherche de modélisations, méthodes mathématique et ‘probabiliste’ afin d’estimer le nombre de personnes susceptibles de passer en caisse quart d'heure par quart d'heure et ainsi proposer le nombre de caisse adéquat à ouvrir"
+        },
+        {
+          "p":"Utilisation et mise en place d’une caméra à l’entrée du magasin pour corriger en temps réel les estimations établies lors de la planification et proposer le nombre de caisse adéquat à ouvrir."
+        },
+        {
+          "p":"Développement du module de synchronisation d’Import Export de données et participation à la migration en full WEB"
+        }
+      ],
+      "techno":"Windev, WebDev, Caméra, Badgeuse",
+      "environnement":"",
+      "GP":"",
+      "type":"Stage Fin Etude", 
+      "orientation": "left"
+    }
 	]
 }
