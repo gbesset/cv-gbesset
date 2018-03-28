@@ -1,6 +1,12 @@
 jQuery(document).ready(function($){
 
 
+	//Scroll to Top
+	$.scrollUp({
+    	scrollText: '',
+  	});
+
+	//Display email and Phone
 	$("#displayMail").click(function(){
 		$("#mail").html("guillaume.besset.pro@gmail.com");
 		$("#displayMail").remove();
@@ -11,7 +17,30 @@ jQuery(document).ready(function($){
 		$("#displayPhone").remove();
 	});
 
+	//Load experience in json file
+	$.getJSON("resources/experience.json", function(data){
+	   displayXP(data,"results");
+	   majFooter(data);
+	})
+	.fail(function(){
+		displayError("results");
+	})
+	.always(function(){
+		$('#loader').hide();
+	});
 
+
+	/************************************
+		FUNCTIONS
+	**********************************/
+
+	//Update footer update date
+	function majFooter(data){
+		$('#lastMAJ').text(data.maj);
+	}
+
+
+	//Display XP in TimeLine
 	function displayXP(data, cible){
 		var result = $('#'+cible);
 
@@ -80,17 +109,11 @@ jQuery(document).ready(function($){
 				}).appendTo(divXp);
 			}
 
-
-
 			$('<div/>', {
 			    class: 'title',
 			    text: xp.title
 			}).appendTo(divXp);
 			
-			/*$('<span/>', {
-			    class: 'type',
-			    text: xp.type
-			}).appendTo(divXp);*/
 
 			//XP Description
 			var divDescription=$('<div/>', {
@@ -108,18 +131,12 @@ jQuery(document).ready(function($){
 			}).appendTo($('<p/>').appendTo(divDescription));
 
 			createModal('modal-'+xp.id, xp, divXp);
-			//Long Description
-			/*var divLongDescription=$('<div/>', {
-			    class: 'LongDesc',
-			    text: xp.longDescription
-			});
-			divLongDescription.appendTo(divXp);			
-			*/
 
 		});
 		
 	}
 
+	//Display Error if no json file
 	function displayError(cible){
 		var result = $('#'+cible);
 		var error = $('<div class="alert alert-danger"><strong>Erreur</strong> lors du chargement des Experiences</div>');
@@ -127,22 +144,7 @@ jQuery(document).ready(function($){
 
 	}
 
-
-	$.getJSON("resources/experience.json", function(data){
-	   displayXP(data,"results");
-	   majFooter(data);
-	})
-	.fail(function(){
-		displayError("results");
-	})
-	.always(function(){
-		$('#loader').hide();
-	});
-
-	function majFooter(data){
-		$('#lastMAJ').text(data.maj);
-	}
-
+	//Create XP details in modal 
 	function createModal(id, xp, target){
 
 		var divModal = $('<div/>', {
@@ -236,5 +238,6 @@ jQuery(document).ready(function($){
 			 class: "x-modal-close"
 			}).appendTo(divClose);
 	}
+
 
 });
